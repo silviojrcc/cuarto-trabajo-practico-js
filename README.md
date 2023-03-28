@@ -1,4 +1,4 @@
-# Trabajo práctico de bucles de JavaScript con DOM
+# Trabajo práctico de objetos de JavaScript con DOM
 
 Este es el cuarto trabajo práctico de objetos JavaScript utilizando el DOM para manipular elementos HTML.
 
