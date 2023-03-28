@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(127, 73, 62);
+    margin: 0;
+    padding: 0;
+}
+
+.container-juego {
+
+}
+
+.main-title {
+    text-align: center;
+}
+
+.game-area {
+    background-image: url("../images/bg-naruto.jpg");
+    background-repeat: round;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    max-height: 900px;
+}
+
+.scores {
+    border: 5px solid;
+    text-align: center;
+    width: 300px;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0 0 0;
+}
+
+.choice {
+    cursor: pointer;
+}
+
+.choice img {
+    width: 100%;
+    height: auto;
+    margin: 15px 30px;
+    transition: all 0.5s;
+}
+
+.choice img:hover {
+    transform: scale(1.2);
+}
+
+.kakashi {
+    width: 20%;
+    float: left;
+}
+
+.guy {
+    width: 20%;
+
+    float: right;
+}
